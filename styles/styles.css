@@ -1,9 +1,35 @@
-/* Main content width */
+/* Navigation */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+/* Main content */
 main {
     max-width: 840px;
 }
 
-/* Aside styling */
+/* Heading */
+h1 {
+    color: #333;
+}
+
+/* Profile image */
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid #333;
+    padding: 2px;
+    box-shadow: 0 0 10px #777;
+}
+
+/* Aside */
 aside {
     width: 20rem;
     margin: 1rem;
@@ -14,24 +40,18 @@ aside {
     text-align: center;
 }
 
-/* Image inside aside */
+/* Aside image */
 aside img {
     width: 200px;
     height: auto;
 }
 
-/* Profile image inside main */
-main img {
-    width: 150px;
-    height: auto;
-}
-
-/* Paragraph padding */
+/* Paragraph */
 p {
     padding: 0;
 }
 
-/* Footer styling */
+/* Footer */
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
