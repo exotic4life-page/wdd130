@@ -1,32 +1,46 @@
+/* CSS Variables */
+:root {
+    --primary-color: #333;
+    --secondary-color: #eee;
+    --text-color: #333;
+    --white-color: #fff;
+    --border-color: #000;
+    --shadow-color: #777;
+
+    --main-width: 840px;
+    --profile-image-width: 150px;
+    --aside-image-width: 200px;
+}
+
 /* Navigation */
 nav {
-    background-color: #333;
+    background-color: var(--primary-color);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: var(--white-color);
     padding: 10px;
     display: block;
 }
 
 /* Main content */
 main {
-    max-width: 840px;
+    max-width: var(--main-width);
 }
 
 /* Heading */
 h1 {
-    color: #333;
+    color: var(--text-color);
 }
 
 /* Profile image */
 main img {
-    width: 150px;
+    width: var(--profile-image-width);
     height: auto;
-    border: 1px solid #333;
+    border: 1px solid var(--primary-color);
     padding: 2px;
-    box-shadow: 0 0 10px #777;
+    box-shadow: 0 0 10px var(--shadow-color);
 }
 
 /* Aside */
@@ -35,14 +49,14 @@ aside {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
     text-align: center;
 }
 
 /* Aside image */
 aside img {
-    width: 200px;
+    width: var(--aside-image-width);
     height: auto;
 }
 
@@ -54,6 +68,6 @@ p {
 /* Footer */
 footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: 1px solid var(--border-color);
     text-align: center;
 }
