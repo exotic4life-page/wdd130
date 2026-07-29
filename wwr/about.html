@@ -8,6 +8,7 @@
       content="Learn about White Water Rafting Co., our history, mission, and the experienced guides dedicated to bringing you thrilling and safe rafting adventures.">
     <meta name="author" content="Chidiebere Agbo">
     <title>About Us - White Water Rafting Co.</title>
+
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
@@ -15,10 +16,11 @@
 
     <header>
         <img src="images/logo.png" alt="White Water Rafting Co. logo">
+
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
+                <li><a href="about.html" aria-current="page">About Us</a></li>
                 <li><a href="trips.html">Trips</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
@@ -26,12 +28,15 @@
     </header>
 
     <main>
+
         <div class="hero">
             <img src="images/hero.jpg" alt="Rafters paddling through white water rapids">
             <h1>White Water Rafting Co.</h1>
+
             <article>
                 <img src="images/happy-client.jpg" alt="Happy client smiling after a rafting trip">
-                <p>At White Water Rafting Co., we are passionate about providing thrilling and
+                <p>
+                    At White Water Rafting Co., we are passionate about providing thrilling and
                     unforgettable
                     rafting experiences. Our team of experienced guides is dedicated to ensuring
                     your safety
@@ -40,35 +45,90 @@
             </article>
         </div>
 
-        <section>
+        <!-- History section -->
+        <section class="history">
             <h2>History</h2>
-            <p>Founded over two decades ago by a small group of river guides, White Water Rafting
-                Co. began
-                with a single raft and a big dream: to share the beauty and thrill of the river with
-                everyone
-                who was brave enough to hop in. Since then, we've grown into one of the region's
-                most trusted
-                outfitters, guiding thousands of adventurers safely down rapids of every class,
-                while staying
-                true to our founding values of safety, stewardship of the river, and unforgettable
-                fun.</p>
+
+            <div class="history-content">
+                <p>
+                    Founded over two decades ago by a small group of river guides, White Water
+                    Rafting Co.
+                    began with a single raft and a big dream: to share the beauty and thrill of the
+                    river with
+                    everyone who was brave enough to hop in. Since then, we've grown into one of the
+                    region's
+                    most trusted outfitters, guiding thousands of adventurers safely down rapids of
+                    every class,
+                    while staying true to our founding values of safety, stewardship of the river,
+                    and unforgettable
+                    fun.
+                </p>
+
+                <figure class="history-image">
+                    <img src="images/history.jpg" alt="A rafting adventure on the river">
+                    <figcaption>Our Story</figcaption>
+                </figure>
+
+                <p>
+                    We believe every trip should feel personal—clean gear, clear instructions, and
+                    guides who
+                    know the river. Whether you're going for your first rapid or your next big
+                    challenge, our
+                    team is here to make the experience exciting and safe.
+                </p>
+            </div>
         </section>
 
-        <section>
-            <h2>Adventure Awaits You!</h2>
+        <!-- Adventures section -->
+        <section class="adventures">
+            <h2>Adventure Awaits You</h2>
+
+            <div class="adventure-grid">
+                <figure>
+                    <img src="images/adventure-1.jpg"
+                      alt="Los Dientes del Diablo white water rafting trip">
+                    <figcaption>Los Dientes del Diablo</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/adventure-2.jpg" alt="Big Mallard white water rafting trip">
+                    <figcaption>Big Mallard</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/adventure-3.jpg"
+                      alt="Half Day Adventure white water rafting trip">
+                    <figcaption>Half Day Adventure</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/adventure-4.jpg"
+                      alt="Full Day Adventure white water rafting trip">
+                    <figcaption>Full Day Adventure</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/adventure-5.jpg" alt="The Great Divide rafting trip">
+                    <figcaption>The Great Divide</figcaption>
+                </figure>
+            </div>
         </section>
+
     </main>
 
     <footer>
         <p>&copy; 2026 White Water Rafting Co. | Chidiebere Agbo</p>
-        <nav class="socialmedia">
-            <a href="https://facebook.com">
+
+        <nav class="socialmedia" aria-label="Social media links">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                 <img src="images/facebook.svg" alt="Facebook Icon">
             </a>
-            <a href="https://linkedin.com">
+
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
                 <img src="images/linkedin.svg" alt="LinkedIn Icon">
             </a>
-            <a href="https://instagram.com">
+
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
                 <img src="images/instagram.svg" alt="Instagram Icon">
             </a>
         </nav>
